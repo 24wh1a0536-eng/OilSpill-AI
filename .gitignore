@@ -1,0 +1,23 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+logs/
+*.log
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large satellite imagery / generated data
+*.tif
+*.tiff
+*.zip
+*.SAFE/
+
+# Editor/system files
+.vscode/
+.DS_Store
+Thumbs.db

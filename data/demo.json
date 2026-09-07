@@ -1,0 +1,23 @@
+{
+  "source": "Demo AIS Dataset",
+  "incidents": [
+    {"id":"OS-2026-001","latitude":19.076,"longitude":72.8777,"areaKm2":12.5,"severity":"CRITICAL","score":0.891,"detectedAt":"2026-09-03T02:25:00Z","status":"TRACKING","source":"Demo satellite scene","processingMethod":"Prototype Detection","maskUrl":"","overlayUrl":""},
+    {"id":"OS-2026-002","latitude":18.9388,"longitude":72.8354,"areaKm2":6.8,"severity":"MAJOR","score":0.812,"detectedAt":"2026-09-02T18:10:00Z","status":"CONFIRMED","source":"Demo satellite scene","processingMethod":"Prototype Detection","maskUrl":"","overlayUrl":""},
+    {"id":"OS-2026-003","latitude":19.2215,"longitude":72.961,"areaKm2":3.4,"severity":"MODERATE","score":0.734,"detectedAt":"2026-09-01T09:40:00Z","status":"DETECTED","source":"Demo satellite scene","processingMethod":"Prototype Detection","maskUrl":"","overlayUrl":""},
+    {"id":"OS-2026-004","latitude":18.791,"longitude":72.701,"areaKm2":1.2,"severity":"MINOR","score":0.648,"detectedAt":"2026-08-30T12:15:00Z","status":"RESOLVED","source":"Demo satellite scene","processingMethod":"Prototype Detection","maskUrl":"","overlayUrl":""},
+    {"id":"OS-2026-005","latitude":19.002,"longitude":73.12,"areaKm2":8.7,"severity":"MAJOR","score":0.778,"detectedAt":"2026-08-29T05:30:00Z","status":"TRACKING","source":"Demo satellite scene","processingMethod":"Prototype Detection","maskUrl":"","overlayUrl":""},
+    {"id":"OS-2026-006","latitude":18.65,"longitude":72.95,"areaKm2":2.1,"severity":"MODERATE","score":0.691,"detectedAt":"2026-08-28T17:05:00Z","status":"RESOLVED","source":"Demo satellite scene","processingMethod":"Prototype Detection","maskUrl":"","overlayUrl":""}
+  ],
+  "vessels": [
+    {"mmsi":"356274000","name":"Caribbean Star","type":"Oil/Chemical Tanker","flag":"Panama","capacity":"42,000 DWT","positions":[{"latitude":19.03,"longitude":72.80,"timestamp":"2026-09-03T01:55:00Z"},{"latitude":19.071,"longitude":72.871,"timestamp":"2026-09-03T02:15:00Z"},{"latitude":19.10,"longitude":72.92,"timestamp":"2026-09-03T02:40:00Z"}]},
+    {"mmsi":"219456000","name":"Nordic Fortune","type":"Crude Oil Carrier","flag":"Denmark","capacity":"110,000 DWT","positions":[{"latitude":19.00,"longitude":72.84,"timestamp":"2026-09-03T01:30:00Z"},{"latitude":19.04,"longitude":72.82,"timestamp":"2026-09-03T02:20:00Z"},{"latitude":19.08,"longitude":72.81,"timestamp":"2026-09-03T03:00:00Z"}]},
+    {"mmsi":"636019000","name":"Atlantic Glory","type":"Oil Tanker","flag":"Liberia","capacity":"55,000 DWT","positions":[{"latitude":18.98,"longitude":72.89,"timestamp":"2026-09-03T00:55:00Z"},{"latitude":19.00,"longitude":72.91,"timestamp":"2026-09-03T02:05:00Z"},{"latitude":19.03,"longitude":72.94,"timestamp":"2026-09-03T03:10:00Z"}]},
+    {"mmsi":"477901000","name":"Pacific Relay","type":"Container Ship","flag":"Hong Kong","capacity":"8,200 TEU","positions":[{"latitude":19.15,"longitude":73.04,"timestamp":"2026-09-03T02:10:00Z"},{"latitude":19.18,"longitude":73.08,"timestamp":"2026-09-03T03:00:00Z"}]},
+    {"mmsi":"440221000","name":"Sakura Venture","type":"Bulk Carrier","flag":"Korea","capacity":"68,000 DWT","positions":[{"latitude":18.86,"longitude":72.76,"timestamp":"2026-09-03T02:25:00Z"},{"latitude":18.83,"longitude":72.72,"timestamp":"2026-09-03T03:00:00Z"}]},
+    {"mmsi":"244112000","name":"Meridian Hope","type":"General Cargo","flag":"Netherlands","capacity":"12,000 DWT","positions":[{"latitude":19.30,"longitude":72.70,"timestamp":"2026-09-03T02:20:00Z"},{"latitude":19.35,"longitude":72.68,"timestamp":"2026-09-03T03:00:00Z"}]},
+    {"mmsi":"538005100","name":"Bay Chemist","type":"Chemical Tanker","flag":"Marshall Islands","capacity":"18,500 DWT","positions":[{"latitude":18.93,"longitude":72.86,"timestamp":"2026-09-03T01:45:00Z"},{"latitude":18.95,"longitude":72.89,"timestamp":"2026-09-03T02:30:00Z"}]},
+    {"mmsi":"352001000","name":"Seaway Pioneer","type":"Container Ship","flag":"Panama","capacity":"4,100 TEU","positions":[{"latitude":19.42,"longitude":73.2,"timestamp":"2026-09-03T02:20:00Z"}]},
+    {"mmsi":"564008000","name":"Eastern Crown","type":"Oil Tanker","flag":"Singapore","capacity":"75,000 DWT","positions":[{"latitude":18.72,"longitude":72.94,"timestamp":"2026-09-03T02:15:00Z"}]},
+    {"mmsi":"370772000","name":"Blue Horizon","type":"General Cargo","flag":"Panama","capacity":"9,000 DWT","positions":[{"latitude":19.51,"longitude":72.61,"timestamp":"2026-09-03T02:30:00Z"}]}
+  ]
+}
